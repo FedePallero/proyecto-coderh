@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+
+header{
+    
+    background-image: url(../images/fondo-nutricion.jpg);
+    
+}
+footer{
+    height: 15vh;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 123, 0);
+}
+
+.logo_nav img{
+    height: 180px;
+}
+
+        /* Estilo para barra de navegacion con bootstrap*/
+        .collapse{
+            
+            justify-content: flex-end;
+        }
+        .container-fluid{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .navbar-toggler{
+            color: rgb(10, 10, 10);
+            background-color: rgb(24, 119, 5);
+        }
+        .navbar-nav{
+            margin-right: 2rem;
+            }
+            .navbar a{
+                color: rgb(4, 163, 23);
+                background-color: black;
+            }
+            .nav-item{
+                display: flex;
+                justify-content: end;
+            }
+            .nav-item a{
+                padding: 8px;
+                border-radius: 30%;
+                margin-top: 5px;
+            }
+            .nav-item a:hover{
+                color: aliceblue;
+            }
+            .nav-link{
+                text-align: center;
+            }
+
+
+        /* Estilo para pagina inicio flexbox*/
+.section_main{
+    display: flex;
+    flex-direction: column;
+        }
+
+.section_main div{
+    display: flex;
+    justify-content: center;
+}
+
+.main_inicio img{
+    height: auto;
+    width: 80%;
+    align-items: center;
+}
+.main_inicio p{
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+        /* Estilo para galeria Con algo de bootstrap */
+
+        .main_galeria{
+            height: 65vh;
+        }
+        .section_galeria{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .carousel{
+            width: 35rem;
+            margin: 2rem;
+        }
+        .carousel img{
+            width: 100%;
+            height: 20rem;
+        }
+
+        /* estilos para centrar los textos */
+.centrar_texto{
+    text-align: center;
+    margin: 1.5rem 0;
+}
+        /* MEDIA QUERIES    */
+
+@media screen and (max-width:470px) {
+    .carousel{
+        margin: 2rem 0;
+    }
+}
+
+@media screen and (min-width:576px) {
+
+}
+@media screen and (min-width:992px){
+
+    /* MEDIA QUERIES PARA BARRA DE NAVEGACION */
+    .container-fluid{
+        display: flex;
+        flex-direction: row;
+    }
+    .navbar-nav{
+    margin-right: 2rem;
+    }
+    .navbar a{
+        color: rgb(4, 163, 23);
+        background-color: black;
+        
+    }
+    .nav-item{
+        margin-left: 1.3rem;
+    }
+    /* MEDIA QUERIES PARA PAGINA INICIO */
+    
+    .section_main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .main_inicio div{
+        height: auto;
+        width: 50%;
+        
+    }
+
+    .main_inicio p{
+        width: 35%;
+        text-align: center;
+        margin: 1.5rem 0;
+        
+    }
+
+    footer{
+        height: 15vh;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
