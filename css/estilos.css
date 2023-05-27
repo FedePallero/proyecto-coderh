@@ -17,6 +17,7 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 123, 0);
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,221,214,1) 0%, rgba(51,102,255,1) 90% );
 }
 
 .logo_nav img{
@@ -34,13 +35,13 @@ footer{
         }
         .navbar-toggler{
             color: rgb(10, 10, 10);
-            background-color: rgb(24, 119, 5);
+            background-color: rgb(5, 119, 119);
         }
         .navbar-nav{
             margin-right: 2rem;
             }
             .navbar a{
-                color: rgb(4, 163, 23);
+                color: rgb(4, 152, 163);
                 background-color: black;
             }
             .nav-item{
@@ -141,12 +142,39 @@ footer{
         width: 80%;
     }
 
+    /* Estilo para pagina contacto */
+
+    .formulario{
+        color: rgb(82, 252, 252);
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding-top: 1rem;
+        background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    }
+    .item_formulario{
+        display: flex;
+        justify-content: space-between;
+    }
+    .contenedor_de_imagen img{
+        height: 18rem;
+        width: 95%;
+        text-align: center;
+    }
+    .contenedor_de_imagen{
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+
         /* MEDIA QUERIES    */
 
 @media screen and (max-width:470px) {
+    /* pagina galeria */
     .carousel{
         margin: 2rem 0;
     }
+
 }
 @media screen and (min-width:470px) {
     /* pagina recetas */
@@ -154,7 +182,18 @@ footer{
         height: 18rem;
         width: 80%;
     }
-    
+
+    /* pagina contacto */
+    .contenedor_de_imagen img{
+        height: 20rem;
+        width: 80%;
+        text-align: center;
+    }
+    .item_formulario{
+        display: flex;
+        justify-content: space-around;
+        gap: 5rem;
+    }
 }
 @media screen and (min-width:576px) {
     /* pagina recetas */
@@ -162,6 +201,7 @@ footer{
         height: 21rem;
         width: 80%;
     }
+
     /* pagina productos */
     .row{
         margin: 2rem;
@@ -169,6 +209,15 @@ footer{
     .container img{
         height: 12rem;
         width: 12rem;
+    }
+    
+    /* pagina contacto */
+    .label_consulta{
+        padding-left: 2rem;
+    }
+    textarea{
+        width: 85%;
+        align-self: center;
     }
 }
 
@@ -192,7 +241,12 @@ footer{
         width: 100%;
         height: 21rem;
     }
-    /* pagina producto */
+    
+    /* pagina contacto */
+    .label_consulta{
+        padding-left: 0;
+        text-align: center;
+    }
 
 }
 @media screen and (min-width:992px){
@@ -206,7 +260,7 @@ footer{
     margin-right: 2rem;
     }
     .navbar a{
-        color: rgb(4, 163, 23);
+        color: rgb(4, 152, 163);
         background-color: black;
         
     }
@@ -219,7 +273,7 @@ footer{
         width: 30%;
     }
 
-    /* MEDIA QUERIES PARA PAGINA INICIO */
+    /*  PAGINA INICIO */
     
     .section_main{
         display: flex;
@@ -253,6 +307,23 @@ footer{
     .container img{
         height: 15rem;
         width: 15rem;
+    }
+
+    /* pagina contacto */
+    .section_contacto{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .contenedor_de_imagen img{
+        height:90%;
+    }
+    .contenedor_de_imagen{
+        display: flex;
+        justify-content: center;
+        width: 45%;
+    }
+    .formulario{
+        width: 45%;
     }
 
 }
