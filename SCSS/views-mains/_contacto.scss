@@ -1,0 +1,45 @@
+.contenedor_de_imagen{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+
+    img{
+        height: 18rem;
+        width: 95%;
+        text-align: center;
+        }
+}
+
+.formulario{
+    color: rgb(82, 252, 252);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1rem;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+
+    .item_formulario{
+        display: flex;
+        justify-content: space-around;
+        }
+}
+.label_consulta{
+    padding: 0 2rem;
+}
+textarea{
+    margin: 0 1.5rem;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    width: 2rem;
+    border: solid;
+    padding: 0 4rem;
+    align-self: center;
+    
+    .btn:hover{
+        outline-offset: 3px;
+        color: rgb(6, 6, 6);
+
+    }
+}

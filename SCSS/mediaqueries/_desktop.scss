@@ -1,0 +1,259 @@
+@media screen and (max-width:470px){
+    
+    .carousel{
+        margin: 2rem 0;
+    }
+}
+
+@media screen and (min-width:470px){
+    
+    .div_imagen_recetas {
+        img{
+            height: 18rem;
+        width: 80%;
+        }
+        
+    }
+    .section_recetas{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        .div_imagen_recetas{
+            width: 100%;
+
+            img{
+                height: 18rem;
+                width: 80%;
+            
+            }
+        }
+    }
+
+    .contenedor_de_imagen img{
+        height: 20rem;
+        width: 80%;
+        text-align: center;
+    }
+    
+    .item_formulario{
+        display: flex;
+        justify-content: space-around;
+        gap: 5rem;
+    }
+}
+@media screen and (min-width:576px){
+
+    .section_recetas{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        .div_imagen_recetas{
+            width: 90%;
+
+            img{
+                height: 21rem;
+                width: 80%;
+            
+            }
+        }
+    }
+    
+
+    .row{
+        margin: 2rem;
+
+        img{
+            height: 12rem;
+            width: 12rem;
+        }
+    } 
+    
+    textarea{
+        width: 85%;
+        align-self: center;
+    }
+
+    footer{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgb(255, 123, 0);
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,221,214,1) 0%, rgba(51,102,255,1) 90% );
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width:768px){
+    
+    .img_inicio{
+        height: auto;
+        width: 70%;
+        align-items: center;
+    }
+
+    .section_recetas{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        .div_imagen_recetas{
+            width: 40%;
+
+            img{
+                height: 14rem;
+                width: 80%;
+            
+            }
+        }
+    }
+    
+    .carousel img{
+        width: 100%;
+        height: 18rem;
+    }
+    
+    .contenedor_de_imagen img{
+        height: 21rem;
+        width: 70%;
+    }
+    
+    .label_consulta{
+        padding-left: 0;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:992px){
+    
+    .container-fluid{
+        display: flex;
+        flex-direction: row;
+
+        .navbar-nav{
+            margin-right: 2rem;
+
+            .nav-item{
+                margin-left: 1.3rem;
+
+                a{
+                    color: rgb(4, 152, 163);
+                    background-color: black;
+                    
+                    &:hover{
+                        color: aliceblue;
+                    }
+                }
+            }
+        
+        }
+    }
+    
+    .section_recetas{
+        display: flex;
+
+        .div_imagen_recetas{
+            width: 30%;
+        }
+    }
+
+    .section_main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        div{
+            height: auto;
+            width: 50%;
+            
+            img{
+                width: 80%;
+            }
+        }
+
+        p{
+            display: flex;
+            align-items:center ;
+            width: 35%;
+            margin: 1.5rem 0;
+            
+        }
+
+    }
+
+    
+    footer{
+        height: 17vh;
+        font-size: 1.2rem;
+        
+        .redes{
+            gap: 1.8rem;
+            
+            a{
+                font-size: 1.7rem;
+            }
+        }
+    }
+
+    
+    .container img{
+        height: 15rem;
+        width: 15rem;
+    }
+
+
+    .section_contacto{
+        display: flex;
+        justify-content: space-evenly;
+
+        .contenedor_de_imagen{
+            display: flex;
+            justify-content: center;
+            width: 50%;
+
+            img{
+                height:90%;
+            }
+        }
+
+        .formulario{
+            width: 45%;
+            border-radius: 5%;
+            box-shadow: #330867;
+        }
+    }
+    
+}
+
+@media screen and (min-width:1220px) {
+    
+    .section_recetas{
+        
+        .div_imagen_recetas{
+            width: 25%;
+        }
+    }
+
+    .main_inicio img{
+        height: 48rem;
+        width: 35rem;
+    }
+
+    .carousel img{
+        width: 100%;
+        height: 19rem;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    
+    .carousel img{
+        width: 100%;
+        height: 22rem;
+    }
+    
+
+}

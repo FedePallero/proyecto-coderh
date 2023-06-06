@@ -1,0 +1,21 @@
+.section_main{
+    display: flex;
+    flex-direction: column;
+
+    div{
+        display: flex;
+        justify-content: center;
+
+        img{
+            height: auto;
+            width: 90%;
+            align-items: center;
+            border-radius: 20%;
+        }
+    }
+
+    p{
+        text-align: center;
+        margin: 1.5rem 0;
+    }
+}
