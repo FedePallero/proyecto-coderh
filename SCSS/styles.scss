@@ -1,4 +1,4 @@
-
+@import "./utilities/variables";
 @import "./reset-body/reset-body";
 @import "./layout/header";
 @import "./layout/footer";
@@ -10,3 +10,9 @@
 @import "./views-mains/recetas";
 @import "./views-mains/contacto";
 @import "./mediaqueries/desktop";
+
+@each $red,$valor in $redes-color {
+    .red--#{$red} {
+        background-image: $valor;
+    }
+}

@@ -7,7 +7,7 @@
             
             .navbar-toggler{
                 color: rgb(10, 10, 10);
-                background-color: rgb(5, 119, 119);
+                background-color: $primario;
             }
             .logo_nav{
                 border-radius: 20%;
@@ -25,7 +25,7 @@
             margin-right: 2rem;
             }
             .navbar a{
-                color: rgb(4, 152, 163);
+                color: $primario;
                 background-color: black;
             }
             .nav-item{

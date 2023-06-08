@@ -80,8 +80,6 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        background-color: rgb(255, 123, 0);
-        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,221,214,1) 0%, rgba(51,102,255,1) 90% );
         font-size: 1.1rem;
     }
 }
@@ -222,7 +220,7 @@
         .formulario{
             width: 45%;
             border-radius: 5%;
-            box-shadow: #330867;
+            gap: 2rem;
         }
     }
     
@@ -253,6 +251,13 @@
     .carousel img{
         width: 100%;
         height: 22rem;
+    }
+    
+    .section_contacto{
+        
+        .formulario{
+            gap: 2.7rem;
+        }
     }
     
 

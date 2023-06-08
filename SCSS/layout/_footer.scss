@@ -1,25 +1,40 @@
 footer{
     height: 17vh;
-    margin-top: 1.5rem;
     padding-top: 1rem;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgb(255, 123, 0);
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,221,214,1) 0%, rgba(51,102,255,1) 90% );
+    background-image: $blue-gradient;
+    box-shadow:  0 2px 2px 5px rgb(17, 0, 58);
     .redes {
         display: flex;
         align-items: center;
         gap: 1.6rem;
         
         a{
-            color: white;
+            
             font-size: 1.4rem;
 
             i:hover{
-                color:rgb(3, 213, 251);
+                color:$primario
+                
             }
+        }
+        .red--instagram{
+            color: white;
+            border-radius: 50%;
+            padding: 1px 8px 2px 6px;
+        }
+        .red--whatsapp{
+            color: white;
+            border-radius: 50%;
+            padding: 1px 8px 3px 7px;
+        }
+        .red--twitter{
+            color: white;
+            border-radius: 50%;
+            padding: 1px 8px 3px 7px;
         }
     }
 }
