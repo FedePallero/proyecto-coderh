@@ -15,11 +15,17 @@ footer{
         a{
             
             font-size: 1.4rem;
+            transition: transform 1s;
 
             i:hover{
-                color:$primario
+                color:$primario;
+                
                 
             }
+            &:hover{
+                transform:scale(1.4,1.4);
+            }
+            
         }
         .red--instagram{
             color: white;
@@ -37,4 +43,5 @@ footer{
             padding: 1px 8px 3px 7px;
         }
     }
+    
 }

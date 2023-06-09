@@ -1,8 +1,9 @@
 $primario:rgb(4, 152, 163);
-$blue-gradient:linear-gradient(to right, #30cfd0 0%, #1e0867 100%);
+$blue-gradient: radial-gradient(ellipse 700px 80px, #30cfd0 0%, #1e0867 100%);
 $fondo-instagram:linear-gradient(to top,orange 0%,red 40%,rgb(244, 40, 217) 100%);
-$fondo-whatsapp:linear-gradient(to top,rgb(3, 171, 11) 0%,rgb(3, 223, 51) 100%);
+$fondo-whatsapp:linear-gradient(to top,rgb(3, 171, 11) 0%,rgb(2, 239, 109) 100%);
 $fondo-twitter:linear-gradient(to top,rgb(6, 19, 195) 0%,rgb(18, 67, 228) 100%);
+$espacio-letras:1px;
 
 $redes-color:(
     twitter:$fondo-twitter,
