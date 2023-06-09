@@ -16,3 +16,9 @@
         background-image: $valor;
     }
 }
+
+@each $red,$valor in $redes-sombra {
+    .red--#{$red}:hover {
+        box-shadow: $valor;
+    }
+}

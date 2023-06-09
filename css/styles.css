@@ -32,9 +32,6 @@ footer .redes a {
   font-size: 1.4rem;
   transition: transform 1s;
 }
-footer .redes a i:hover {
-  color: rgb(4, 152, 163);
-}
 footer .redes a:hover {
   transform: scale(1.4, 1.4);
 }
@@ -417,6 +414,18 @@ textarea {
 
 .red--whatsapp {
   background-image: linear-gradient(to top, rgb(3, 171, 11) 0%, rgb(2, 239, 109) 100%);
+}
+
+.red--twitter:hover {
+  box-shadow: 0 0 15px rgb(2, 2, 191);
+}
+
+.red--instagram:hover {
+  box-shadow: 0 0 15px rgb(255, 117, 42);
+}
+
+.red--whatsapp:hover {
+  box-shadow: 0 0 15px rgb(5, 255, 5);
 }
 
 /*# sourceMappingURL=styles.css.map */
