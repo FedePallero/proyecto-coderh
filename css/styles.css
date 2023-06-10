@@ -23,6 +23,9 @@ footer {
   background-image: radial-gradient(ellipse 700px 80px, #30cfd0 0%, #1e0867 100%);
   box-shadow: 0 2px 2px 5px rgb(17, 0, 58);
 }
+footer p {
+  color: white;
+}
 footer .redes {
   display: flex;
   align-items: center;
@@ -99,6 +102,7 @@ footer .redes .red--twitter {
 .nav-item a.active {
   text-shadow: 0 0 4px rgb(216, 217, 224);
   transform: scale(1.6, 1.6);
+  color: black;
 }
 
 .section_main {
@@ -117,7 +121,10 @@ footer .redes .red--twitter {
 }
 .section_main p {
   text-align: center;
+  padding: 0 1rem;
   margin: 1.5rem 0;
+  letter-spacing: 1px;
+  line-height: 200%;
 }
 
 .main_galeria {
@@ -409,6 +416,12 @@ textarea {
   .main_inicio img {
     height: 48rem;
     width: 35rem;
+  }
+  .section_main p {
+    line-height: 240%;
+    font-size: 1.3rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 800;
   }
   .carousel img {
     width: 100%;

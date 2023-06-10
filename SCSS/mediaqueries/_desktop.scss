@@ -136,6 +136,7 @@
 
             .nav-item{
                 margin-left: 1.3rem;
+                
 
                 a{
                     color: rgb(4, 152, 163);
@@ -144,6 +145,7 @@
                     &:hover{
                         color: aliceblue;
                     }
+                    
                 }
             }
         
@@ -238,6 +240,12 @@
     .main_inicio img{
         height: 48rem;
         width: 35rem;
+    }
+    .section_main p{
+        line-height: 240%;
+        font-size: 1.3rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 800;
     }
 
     .carousel img{

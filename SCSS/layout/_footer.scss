@@ -7,6 +7,9 @@ footer{
     justify-content: space-evenly;
     background-image: $blue-gradient;
     box-shadow:  0 2px 2px 5px rgb(17, 0, 58);
+    p{
+        color: white;
+    }
     .redes {
         display: flex;
         align-items: center;
