@@ -31,6 +31,9 @@
             .nav-item{
                 display: flex;
                 justify-content: end;
+                
+                
+
                 a{
                     padding: 8px;
                     color: $primario;
@@ -41,9 +44,14 @@
                     text-align: center;
                     transition: transform 1s;
                     
+                    
                     &:hover{
                         color: aliceblue;
                         transform:scale(1.3,1.3);
+                    }
+                    &.active{
+                        text-shadow: 0 0 4px rgb(216, 217, 224);
+                        transform:scale(1.6,1.6);
                     }
                 }
                 
