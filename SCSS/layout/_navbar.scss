@@ -36,10 +36,11 @@
 
                 a{
                     padding: 8px;
-                    color: $primario;
+                    color: black;
+                    text-shadow: 0 0 4px rgb(216, 217, 224);
                     letter-spacing: $espacio-letras;
                     border-radius: 30%;
-                    background-color: black;
+                    background-color:none;
                     margin-top: 5px;
                     text-align: center;
                     transition: transform 1s;
