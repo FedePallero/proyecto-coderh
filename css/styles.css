@@ -74,9 +74,12 @@ footer .redes .red--twitter {
   height: 180px;
   border-radius: 20%;
   transition: transform 1.5s;
+  box-shadow: 0 0 15px rgb(29, 88, 248);
+  opacity: 0.9;
 }
 .container-fluid .logo_nav img:hover {
   transform: scale(1.1, 1.1);
+  opacity: 1;
 }
 .container-fluid .collapse {
   justify-content: flex-end;
@@ -168,6 +171,11 @@ footer .redes .red--twitter {
   height: 90%;
   width: 90%;
   padding: 1.3rem 0;
+  opacity: 0.8;
+}
+.col-md-4 img:hover {
+  opacity: 1;
+  zoom: 1.01;
 }
 
 .section_recetas {
@@ -185,6 +193,10 @@ footer .redes .red--twitter {
 .section_recetas .div_imagen_recetas img {
   height: 16rem;
   width: 80%;
+  opacity: 0.8;
+}
+.section_recetas .div_imagen_recetas img:hover {
+  opacity: 1;
 }
 .section_recetas .div_imagen_recetas h4 {
   margin: 1.5rem 0;

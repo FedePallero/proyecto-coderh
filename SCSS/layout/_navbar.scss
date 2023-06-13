@@ -15,8 +15,11 @@
                     height: 180px;
                     border-radius: 20%;
                     transition: transform 1.5s;
+                    box-shadow: 0 0 15px rgb(29, 88, 248);
+                    opacity: 0.9;
                     &:hover{
                         transform:scale(1.1,1.1);
+                        opacity:1;
                     }
                 }
             }
